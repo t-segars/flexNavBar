@@ -1,0 +1,46 @@
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: wheat;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.nav, .nav-title, .nav-links{
+    display: flex;
+    padding: 10px;
+    margin: 25px;
+    background-color: grey;
+}
+
+.nav-title{
+    flex: 1;
+}
+
+.nav-links{
+    justify-content:space-between;
+    align-items: center;
+    flex: 1;
+    list-style: none;
+    
+}
+
+a{
+    background-color: slategray;
+    text-decoration: none;
+}
+
+button{
+    background-color: dodgerblue;
+    border: 3px solid rgb(59, 57, 57);
+    box-shadow: 5px 5px 5px;
+    color: rgb(80, 78, 78);
+}
+
+a, button{
+    font-size: larger;
+    
+}
